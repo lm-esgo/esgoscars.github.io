@@ -1,0 +1,102 @@
+/* .bmw_principal {
+    width: 600px;
+    margin-top: 200px;
+}
+.audi_principal {
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 150px;
+    transform: scaleX(-1);
+} */
+.tarjetas {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    /* background-color: rgb(15, 103, 180); */
+} 
+.tar-item {
+    display: grid;
+    justify-items: center; /* Justifico el contenido */
+    align-content: center; /* mandó todo al centro exacto */
+    margin: 20px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: rgb(0, 0, 0);
+    box-shadow: 3px 3px 8px .9px #c4c0c0;
+}
+/* .tar-item:hover {
+    background-color: rgb(41, 154, 220);
+    border: rgb(0, 144, 228) solid;
+    color: rgb(255, 255, 255);
+} */
+.tar-item-bg {
+    display: flex;
+    flex-direction: column;
+    /* position: absolute; */
+    width: 250px;
+    height:300px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    align-items: center; /* Acomoda bien las imágnes*/
+    /* align-content: center; */
+    justify-content: center;
+}
+.tar-item-bg:hover {
+    width: 150px;
+    height:200px;
+    background-color: rgb(255, 255, 255);
+    border: rgb(0, 144, 228) solid;
+    color: rgb(7, 169, 4);
+}
+.tar-item-img {
+    width: 200px;
+    height: 150px;
+    /* margin-bottom: 30px; */
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.tarjetas .tar-item .tar-item-bg button {
+    background-color: rgb(41, 154, 220);
+    padding: 10px;
+}
+.tarjetas .tar-item .tar-item-bg button a{
+    color: rgb(255, 255, 255);
+}
+.redes {
+    display: grid;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    margin-top: 200px;
+    width: 80px;
+    padding: 0;
+    z-index: 99;
+}
+.redes-contacto {
+    display: grid;
+    justify-items: center; /*justifico las palabras*/
+    justify-content: center; /*justificó el contenido*/
+    list-style: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 40px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    align-content: center;/*  alineó las palabras en el centro del contenedor */
+}
+.redes-img {
+    width: 40px;
+}
+.redes-img:hover {
+    width: 50px;
+}

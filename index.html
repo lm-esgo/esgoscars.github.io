@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=Josefin+Sans:wght@200;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/index2.css">
+    <link rel="stylesheet" href="./css/tarjetas.css">
+    <link rel="stylesheet" href="./css/secciones.css">
+    <link rel="stylesheet" href="css/carrusel.css">
+    <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <script defer src="./index.js"></script>
+    <title>EGC</title>
+</head>
+<body>
+    <div class="general">
+        <header class="bg-header">
+            <nav>
+                <a href="index.html" class="logo nav-link">
+                    <img class="carro-logo" src="https://images.vexels.com/media/users/3/154251/isolated/preview/fef0c563c39f2746c35604e969ffe3ef-silhueta-de-vista-frontal-do-carro-bmw-by-vexels.png" alt="logo">
+                </a>
+                <h2 class="title">Esgo's cars</h2>
+                <button class="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a href="./pages/comprar.html" class="nav-menu-link nav-link">Comprar</a></li>
+                    <li class="nav-menu-item"><a href="./pages/error.html" class="nav-menu-link nav-link">Vender</a></li>
+                    <li class="nav-menu-item"><a href="#foot" class="nav-menu-link nav-link">Contacto</a></li>
+                    <li class="nav-menu-item"><a href="./pages/error.html" class="nav-menu-link nav-link">Perfil</a></li>
+                    <!-- <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link"><i class="fa-solid fa-circle-user"></i></a></li> -->
+                    
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        
+        <section class="principal">
+            <aside>
+                <ul class="redes">
+                    <li class="redes-contacto"><a href="pages/error.html"><img src="https://images.vexels.com/media/users/3/223136/isolated/preview/984f500cf9de4519b02b354346eb72e0-facebook-icon-redes-sociales-by-vexels.png" alt="fb" class="redes-img"></a></li>
+                    <li class="redes-contacto"><a href="pages/error.html"><img src="https://i.pinimg.com/originals/46/5c/1e/465c1eba38d42baa6fcae6f8e216521c.png" alt="ig" class="redes-img"></a></li>
+                    <li class="redes-contacto"><a href="pages/error.html"><img src="https://cdn.icon-icons.com/icons2/840/PNG/512/Gmail_icon-icons.com_66934.png" alt="mail" class="redes-img"></a></li>
+                    <li class="redes-contacto"><a href="pages/error.html"><img src="https://i.pinimg.com/originals/48/bf/3a/48bf3a4c830720131f3ba99e8e818504.png" alt="whats" class="redes-img"></a></li>
+                </ul>
+            </aside>
+            <div class="carruselPrincipal">
+                <div class="contenedorCarrusel" id="contenedorCarrusel-1">
+                    <div class="espacioCarrusel" id="tarjeta-1"><img class="img-carr" src="./Assets/img/carr-2.png" alt="#"></div>
+                    <div class="cambiarCarrusel">
+                        <a href="#contenedorCarrusel-3"><i class="fas fa-chevron-left"></i></a>
+                        <a href="#contenedorCarrusel-2"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    <div class="ofe">
+                        <h3>¡NUEVO! 📣</h3>
+                        <p>VW Jetta 2020</p>
+                        <br>
+                        <button><a href="pages/error.html">Ver más</a></button>
+                    </div>
+                </div>
+                <div class="contenedorCarrusel" id="contenedorCarrusel-2">
+                    <div class="espacioCarrusel" id="tarjeta-2"><img class="img-carr" src="./Assets/img/carr-1.png" alt="#"></div>
+                    <div class="cambiarCarrusel">
+                        <a href="#contenedorCarrusel-1"><i class="fas fa-chevron-left"></i></a>
+                        <a href="#contenedorCarrusel-3"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    <div class="ofe">
+                        <h3>¡NUEVO! 📣</h3>
+                        <p>Audi A3 2019</p>
+                        <br>
+                        <button><a href="pages/error.html">Ver más</a></button>
+                    </div>
+                </div>
+                <div class="contenedorCarrusel" id="contenedorCarrusel-3">
+                    <div class="espacioCarrusel" id="tarjeta-3"><img class="img-carr" src="./Assets/img/carr-3.png" alt="#"></div>
+                    <div class="cambiarCarrusel">
+                        <a href="#contenedorCarrusel-2"><i class="fas fa-chevron-left"></i></a>
+                        <a href="#contenedorCarrusel-1"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    <div class="ofe">
+                        <h3>¡NUEVO! 📣</h3>
+                        <p>Honda CR-V 2021</p>
+                        <br>
+                        <button><a href="pages/error.html">Ver más</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="puntos">
+            <a href="#contenedorCarrusel-1">●</a>
+            <a href="#contenedorCarrusel-2">●</a>
+            <a href="#contenedorCarrusel-3">●</a>
+        </div>
+        
+        <div class="ofertas2"></div>
+        
+        <div class="vende-compra-container">
+            <div class="vende-compra">
+                <h2>¿QUIERES VENDER TU AUTO?</h2><br>
+                <P>Conoce todos los beneficios</P>
+                <P>de hacer la venta aquí</P><br><br>
+                <p>Después, explora la amplia variedad de carros que te ofrecemos</p><br><br>
+                <img class="img-venta" src="https://www.bancodebogota.com/wps/wcm/connect/banco-de-bogota/0ac6d880-c4d1-447a-853e-3653ca2e2e0a/servilinea-chat.png?MOD=AJPERES&CACHEID=0ac6d880-c4d1-447a-853e-3653ca2e2e0a" alt="vender">
+            </div>
+        </div>
+
+        <div class="ofertas2">
+            <h3>Ofertas del día</h3>
+        </div>
+        <!-- /* Tarjetas de de las ofertas inicio */ -->
+        <div class="tarjetas">
+            <div class="tar-item">
+                <div class="tar-item-bg">
+                    <img class="tar-item-img" src="http://1.bp.blogspot.com/-RtAyYJ-wDMI/UqHHITQj9dI/AAAAAAAAF5s/-MZKETwfxn0/s1600/carro_top2.png" alt="carro1"><br>
+                    <p>Chevrolet Camaro</p>
+                    <p>$600,000</p><br>
+                    <button><a href="pages/comprar.html">Ver más →</a></button>
+                </div>
+            </div>
+            <div class="tar-item">
+				<div class="tar-item-bg">
+                    <img class="tar-item-img" src="http://segurouniversia.segurosbroker.com/img/v2.0/Universidades/espera_landing/coche.png" alt="carro2"><br>
+                    <p>Mazda 2</p>
+                    <p>$260,000</p><br>
+                    <button><a href="pages/comprar.html">Ver más →</a></button>
+                </div>			
+			</div>
+            <div class="tar-item">
+                <div class="tar-item-bg">
+                    <img class="tar-item-img" src="https://i.pinimg.com/originals/2c/db/14/2cdb142c819b2e8d2227b5f76a07b5eb.png" alt="carro3">
+                    <br><br><p>VW Jetta</p>
+                    <p>$260,000</p><br>
+                    <button><a href="pages/comprar.html">Ver más →</a></button>
+                </div>			
+			</div>
+            <div class="tar-item">
+                <div class="tar-item-bg">
+                    <img class="tar-item-img" src="https://img.pngio.com/ford-f-150-raptor-blue-car-png-image-purepng-free-transparent-ford-raptor-png-1262_984.png" alt="carro4"><br>    
+                    <p>Ford Raptor</p>
+                    <p>$1,300,000</p><br>
+                    <button><a href="pages/comprar.html">Ver más →</a></button>
+                </div>		
+			</div>
+            <div class="tar-item">
+                <div class="tar-item-bg">
+                    <img class="tar-item-img" src="http://www.kia-uae.com/content/dam/kwcms/gt/en/images/showroom/CeratoForte_YD/Features/360vr/360_ex_Clear%20White/UD_L_0000.png" alt="carro5"><br>
+                    <p>Kia forte</p>
+                    <p>$329,000</p><br>
+                    <button><a href="pages/comprar.html">Ver más →</a></button>
+                </div>
+			</div>
+            <div class="tar-item">
+                <div class="tar-item-bg">
+                    <img class="tar-item-img" src="https://www.pruebaderuta.com/wp-content/uploads/2017/08/ford-mustang-fastback.png" alt="carro6"><br>
+                    <p>vendido</p>
+                    <p>$</p><br>
+                    <button><a href="pages/comprar.html">Ver más →</a></button>
+                </div>
+			</div>
+            <div class="tar-item">
+                <div class="tar-item-bg">
+                    <img class="tar-item-img" src="https://di-uploads-pod1.s3.amazonaws.com/garberfoxlaketoyota/uploads/2016/07/financing-tips-in-espanol-.png" alt="carro7"><br>
+                    <p>Vendido</p>
+                    <p>$</p><br>
+                    <button><a href="pages/comprar.html">Ver más →</a></button>
+                </div>
+			</div>
+            <div class="tar-item">
+                <div class="tar-item-bg">
+                    <img class="tar-item-img" src="https://pluspng.com/img-png/car-red-png-red-toyota-gt86-png-image-free-car-image-800.png" alt="carro8"><br>
+                    <p>Toyota supra</p>
+                    <p>$1,250,000</p><br>
+                    <button><a href="pages/comprar.html">Ver más →</a></button>
+                </div>  
+			</div>
+            <div class="ofertas2">
+                <div><a class="ver-mas" href="pages/error.html">ver más →</a></div>
+            </div>
+        </div>
+        <!-- /* Tarjetas de de las ofertas fin*/ -->
+
+
+        <!-- <div class="todos-carros">
+            <a href="#">ver mas...</a>
+        </div> -->
+        
+        <footer class="footer-section" id="foot">
+            <div class="container-f1">
+                <div class="container-f2">
+                    <figure>
+                        <a href="index.html">
+                            <img src="https://images.vexels.com/media/users/3/154251/isolated/preview/fef0c563c39f2746c35604e969ffe3ef-silhueta-de-vista-frontal-do-carro-bmw-by-vexels.png" alt="mi logo">
+                        </a>
+                    </figure>
+                </div>
+                <div class="container-f2 div-border">
+                    <h2>SOBRE NOSOTROS</h2><br>
+                    <P>Estebes González Luis Manuel</P>
+                    <P>Programación Web</P><br>
+                    <p>Ingeniería en sistemas computacionales</p>
+                    <p>Tecnológico Nacional de México</p>
+                </div>
+                <div class="container-f2">
+                    <h2>SÍGUENOS</h2>
+                    <div class="social">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                    </div><br>
+                    <p>Corro: esgoscars@servicio.com</p>
+                    <p>Teléfono: +52 442-332-43-63</p>
+                    <p>&copy; 2022 Luis Estebes</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

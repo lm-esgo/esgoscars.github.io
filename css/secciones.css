@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700display=swap');
+/* .ofertas {
+    padding: 40px;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(29, 141, 238, 0.945);
+    border-radius: 5px;
+} */
+.ofertas2 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.945);
+    color: #064f8b;
+    font-size: 30px;
+}
+.ver-mas {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-color: black;
+    border: solid;
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+.ver-mas:hover {
+    color: rgb(24, 178, 224);
+}
+.vende-compra-container {
+    width: 100%;
+    /* max-width: 1200px; */
+    margin: auto;
+    display: grid;
+    /* grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px; */
+    padding: 45px 0px;
+    font-size: 25px;
+    background-color: rgb(169, 130, 206);
+}
+.vende-compra {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.vende-compra .img-venta {
+    width: 600px;
+}
+@media (max-width: 768px) {
+    .vende-compra .img-venta {
+        width: 300px;
+    }
+    .carrucel {
+        width: 500px;
+    }
+}
